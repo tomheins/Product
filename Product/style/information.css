@@ -1,0 +1,116 @@
+
+.third{
+    background-color: black;
+    width:100%;
+    height: 100vh;
+}
+
+
+.content2{
+    width: 100%;
+    position: absolute;
+    text-align: center;
+    color: white;
+}
+.content2 h1{
+    font-size: 70px;
+    margin-top: 80px;
+    visibility: hidden;
+}
+
+.content2 p{
+
+    margin: 20px auto;
+    font-weight: 100;
+    line-weight: 25px;
+    visibility: hidden;
+}
+
+.button1{
+    width: 200px;
+    padding: 15px 0;
+    text-align: center;
+    margin: 20px 10px;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 2px solid #f39f18;
+    background: #f39f18;
+    color: #fff;
+    cursor: pointer;
+    position: relative;
+    overflow:hidden;
+
+}
+
+
+.logo2{
+    margin-top: 100px;
+    visibility: hidden;
+
+}
+
+.span1{
+
+    background: #f39f18;
+    height: 100%;
+    width: 0;
+    border-radius: 25px;
+    position:absolute;
+    left:0;
+    bottom: 0;
+    z-index: -1;
+    transition:0.5s;
+}
+
+
+.fourth{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+    justify-content:center
+}
+
+.one{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1 1 30%;
+    padding: 20px;
+    margin: 0 20px 20px 20px;
+    border-radius: 8px;
+    transition: box-shadow .4s;
+    max-width: 400px;
+    text-align: center;
+    border-radius: 4px;
+}
+
+.one:hover{
+
+    cursor: pointer;
+    box-shadow: 10px 5px 20px;
+
+}
+
+.wrapper{
+    padding: 100px 0px;
+    overflow: hidden;
+    position: relative;
+}
+
+h3{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.span2{
+
+    padding-top: 20px;
+    color: cornflowerblue;
+
+}
+
+.span2:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
